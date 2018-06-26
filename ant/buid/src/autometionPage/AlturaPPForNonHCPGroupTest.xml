@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestingSuite" preserve-order="true" thread-count="1" verbose="10">
+	<test name="lunch browse and Title varification">
+        <classes>
+            <class name="autometionPage.Verification"/>
+        </classes>
+    </test>
+    <test name="Forgot password and request Access varification">
+        <classes>
+            <class name="autometionPage.RequestAccessPage"/>
+        </classes>
+    </test>
+    <test name="Test For Login--valid and invalid case">
+        <classes>
+            <class name="autometionPage.Login"/>
+        </classes>
+    </test>
+    <test name="Test for Clinical trail for patient">
+        <classes>
+            <class name="autometionPage.CTforPatient"/>
+        </classes>
+    </test>
+     <test name="Test for studies for HC">
+        <classes>
+            <class name="autometionPage.StudiesForHC"/>
+        </classes>
+    </test>
+    <test name="Test for patient detail">
+        <classes>
+            <class name="autometionPage.PatientDetail"/>
+        </classes>
+    </test>
+    <test name="Test for Search news">
+        <classes>
+            <class name="autometionPage.News"/>
+        </classes>
+    </test>
+     <test name="Test status for payment details.">
+        <classes>
+            <class name="autometionPage.PaymentsDetails"/>
+        </classes>
+    </test>
+</suite>

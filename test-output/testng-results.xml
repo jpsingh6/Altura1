@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Your request for access has been sent to Altura administrator. If you are eligible for access they will get back to you.]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93344" started-at="2018-06-25T11:44:13Z" finished-at="2018-06-25T11:45:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93344" started-at="2018-06-25T11:44:13Z" finished-at="2018-06-25T11:45:46Z">
+      <class name="autometionPage.CompleteRegistrationForHCP">
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:autometionPage.CompleteRegistrationForHCP@59f99ea]" name="baseSetup" is-config="true" duration-ms="27448" started-at="2018-06-25T17:14:13Z" finished-at="2018-06-25T17:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="CompleteRegistrationForHCP1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:autometionPage.CompleteRegistrationForHCP@59f99ea]" name="CompleteRegistrationForHCP1" duration-ms="59727" started-at="2018-06-25T17:14:41Z" data-provider="RequestAccess" finished-at="2018-06-25T17:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stag3001@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[panalink1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[panalink1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XYZ Organization]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Your request for access has been sent to Altura administrator. If you are eligible for access they will get back to you.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CompleteRegistrationForHCP1 -->
+        <test-method status="PASS" signature="ClickOn_OkButton()[pri:2, instance:autometionPage.CompleteRegistrationForHCP@59f99ea]" name="ClickOn_OkButton" duration-ms="5174" started-at="2018-06-25T17:15:41Z" finished-at="2018-06-25T17:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOn_OkButton -->
+      </class> <!-- autometionPage.CompleteRegistrationForHCP -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

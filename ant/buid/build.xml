@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ALTURA" default="copy" basedir=".">
+
+	<target name="Delete">
+		<delete dir="bin"/>
+		<delete dir="src"/>
+		<delete dir="lib"/>
+		<delete dir="test-output"/>
+	</target>
+	<target name="create" depends="Delete">
+		<mkdir dir="bin" />
+		<mkdir dir="src" />
+		<mkdir dir="lib" />
+		<mkdir dir="test-output" />
+	</target>
+	<target name="copy" depends="create">
+		<copydir src="C:\Users\Panalink\Desktop\mypack\AlturaPP\src" dest="C:\Users\Panalink\Desktop\mypack\AlturaPP\ant\buid\src"></copydir>
+		<copy todir="C:\Users\Panalink\Desktop\mypack\AlturaPP\ant\buid\lib" overwrite="true">
+		<fileset dir="C:\Users\Panalink\Desktop\mypack\AlturaPP" includes="**/*.jar"></fileset>
+		</copy>
+	</target>
+
+</project>

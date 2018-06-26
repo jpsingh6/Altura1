@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [TestingSuite]">
+  <test name="TestCase for submit clinical trail (failed)">
+    <classes>
+      <class name="autometionPage.Verification">
+        <methods>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- autometionPage.Verification -->
+      <class name="autometionPage.ChangePassword">
+        <methods>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- autometionPage.ChangePassword -->
+      <class name="autometionPage.SubmitClinicalTrail">
+        <methods>
+          <include name="CStudyTeam"/>
+        </methods>
+      </class> <!-- autometionPage.SubmitClinicalTrail -->
+      <class name="autometionPage.AdminMyProfile">
+        <methods>
+          <include name="baseSetup"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- autometionPage.AdminMyProfile -->
+      <class name="autometionPage.Login">
+        <methods>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- autometionPage.Login -->
+    </classes>
+  </test> <!-- TestCase for submit clinical trail (failed) -->
+  <test name="Testcase for submit Outcome study(failed)">
+    <classes>
+      <class name="autometionPage.Verification">
+        <methods>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- autometionPage.Verification -->
+      <class name="autometionPage.ChangePassword">
+        <methods>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- autometionPage.ChangePassword -->
+      <class name="autometionPage.SubmitOutcomeStudy">
+        <methods>
+          <include name="OutcomeStudySurvey"/>
+        </methods>
+      </class> <!-- autometionPage.SubmitOutcomeStudy -->
+      <class name="autometionPage.AdminMyProfile">
+        <methods>
+          <include name="baseSetup"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- autometionPage.AdminMyProfile -->
+      <class name="autometionPage.Login">
+        <methods>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- autometionPage.Login -->
+    </classes>
+  </test> <!-- Testcase for submit Outcome study(failed) -->
+</suite> <!-- Failed suite [TestingSuite] -->

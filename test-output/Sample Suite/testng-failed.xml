@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample Suite]">
+  <test name="testing(failed)">
+    <classes>
+      <class name="autometionPage.Login">
+        <methods>
+          <include name="baseSetup"/>
+          <include name="loginToPP"/>
+        </methods>
+      </class> <!-- autometionPage.Login -->
+      <class name="autometionPage.News">
+        <methods>
+          <include name="newsSeach"/>
+          <include name="baseSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- autometionPage.News -->
+      <class name="autometionPage.CTforPatient">
+        <methods>
+          <include name="baseSetup"/>
+          <include name="StudiesForHC"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- autometionPage.CTforPatient -->
+    </classes>
+  </test> <!-- testing(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->

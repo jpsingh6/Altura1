@@ -1,0 +1,61 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestingSuite" preserve-order="true" thread-count="1" verbose="10">
+     <test name="Test For Login">
+        <classes>
+            <class name="autometionPage.Login"/>
+        </classes>
+    </test>
+     <test name="Test status for payment details.">
+        <classes>
+            <class name="autometionPage.PaymentsInvoice"/> 
+        </classes>
+    </test>
+    <test name="Test status for payment Invoice Pending">
+        <classes>
+            <class name="autometionPage.PendingInvoice"/>
+        </classes>
+    </test>
+    <test name="Test status for payment History.">
+        <classes>
+            <class name="autometionPage.PaymentsHistory"/>
+        </classes>
+    </test>
+
+     <test name="Admin My profile page update ">
+        <classes>
+            <class name="autometionPage.AdminMyProfile"/>
+        </classes>
+    </test>
+             <test name="Test status for Change password.">
+        <classes>
+            <class name="autometionPage.ChangePassword"/> 
+        </classes>
+    </test>
+      <test name="Test Term and Condition.">
+        <classes>
+            <class name="autometionPage.TermAndPrivacy"/> 
+        </classes>
+    </test>
+    <test name="Test status for Fee Schedule.">
+        <classes>
+            <class name="autometionPage.FeeSchedule"/> 
+        </classes>
+    </test>
+        <test name="Test status for Help and FAQ.">
+        <classes>
+            <class name="autometionPage.HelpFAQ"/>
+        </classes>
+    </test>
+    
+    <test name="Test status for Contact Altura.">
+        <classes>
+            <class name="autometionPage.ContectAltura"/> 
+        </classes>
+    </test>
+
+    <test name="Test status for logout.">
+        <classes>
+            <class name="autometionPage.LogOut"/> 
+        </classes>
+    </test>
+</suite>
